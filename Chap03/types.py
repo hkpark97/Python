@@ -18,8 +18,15 @@
 # print('x is {}'.format(x))
 # print(type(x))
 
+# when numbers need to be treated as accurate decimals => use decimal.Decimal
+
 # boolean 
 x = 7 > 5
 print('x is {}'.format(x))
 print(type(x))
 # 0 and None return to False value
+
+# id() => returns a unique identifier for each object
+
+# Variables are containers for storing data values.
+# x is variable
