@@ -6,7 +6,19 @@ b = False
 x = ( 'bear', 'bunny', 'tree', 'sky', 'rain' )
 y = 'bear'
 
-if a and b:
+if a or b:
     print('expression is true')
 else:
     print('expression is false')
+
+# and 
+# or
+# not
+# in => value in set
+# not in 
+# is => same object identity
+# is not
+
+# operator precedence
+# ** => exponenet
+

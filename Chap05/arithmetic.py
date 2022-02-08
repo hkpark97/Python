@@ -3,6 +3,10 @@
 
 x = 5
 y = 3
-z = x + y
+o = 12
+z = (x + y) * o
 
 print(f'result is {z}')
+
+
+# If I want integer division use two slash marks for the operator => //
