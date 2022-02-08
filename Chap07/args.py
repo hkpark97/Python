@@ -5,9 +5,11 @@ def main():
     kitten('meow', 'grrr', 'purr')
 
 def kitten(*args):
-    if len(args):
+    if len(args): # if length is greater than 0 
         for s in args:
             print(s)
     else: print('Meow.')
 
 if __name__ == '__main__': main()
+
+# * => variable length argument list

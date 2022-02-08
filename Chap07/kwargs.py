@@ -3,6 +3,9 @@
 
 def main():
     kitten(Buffy = 'meow', Zilla = 'grr', Angel = 'rawr')
+    # same as dict() function
+    # x = dict(Buffy = 'meow', Zilla = 'grr', Angel = 'rawr')
+    # kitten(**x)
 
 def kitten(**kwargs):
     if len(kwargs):
@@ -11,3 +14,5 @@ def kitten(**kwargs):
     else: print('Meow.')
 
 if __name__ == '__main__': main()
+
+# **kwargs => key word arguments
