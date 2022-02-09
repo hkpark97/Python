@@ -12,6 +12,6 @@ def f1(f):
 
 @f1
 def f3():
-    print("This is f3")         
+    print("This is f3")          
 
 f3()

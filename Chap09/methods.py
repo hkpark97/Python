@@ -29,3 +29,5 @@ def main():
     print(a1)
 
 if __name__ == '__main__': main()
+
+# Encapsulation => belong to the object, not to the class

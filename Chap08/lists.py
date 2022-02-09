@@ -10,3 +10,5 @@ def print_list(o):
     print()
 
 if __name__ == '__main__': main()
+
+# .pop() == .remove() == del
