@@ -27,4 +27,4 @@ def main():
     st.time_t() # set time to now
     print('\nlocal time is ' + st.words())
 
-if __name__ == '__main__': main()
+if __name__ == '__main__': main() # => allows you to test your script when running it as a stand-alone program

@@ -7,3 +7,15 @@ def main():
         print(line.rstrip())
 
 if __name__ == '__main__': main()
+
+
+
+
+# str.strip() removes all whitespace from both the end and start of the string. In other words, it is the line.strip() method call that produces a line without the initial whitespace.
+
+# If you wanted to remove just the newline, use str.rstrip():
+
+# >>> '   rule match:\n'.strip()
+# 'rule match:'
+# >>> '   rule match:\n'.rstrip('\n')
+# '   rule match:'

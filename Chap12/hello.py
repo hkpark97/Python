@@ -5,3 +5,8 @@ def main():
     print('Hello, World.')
 
 if __name__ == '__main__': main()
+
+
+# Line Ending 
+# x = 'String\n'
+# => string (white space at the end)

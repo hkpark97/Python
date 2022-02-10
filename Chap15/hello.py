@@ -5,3 +5,6 @@ def main():
     print('Hello, World.')
 
 if __name__ == '__main__': main()
+
+
+# execute() => can be used for both select and nonselect queries.

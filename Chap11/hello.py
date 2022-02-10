@@ -2,3 +2,5 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 print('Hello, World.')
+
+# .casefold()
